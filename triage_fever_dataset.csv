@@ -1,0 +1,10 @@
+Temperature_C,Heart_Rate_bpm,Resp_Rate_bpm,Systolic_BP,SpO2,Consciousness_AVPU,Severe_Symptoms,Triage_Level
+40.2,140,35,85,88,P,Yes,Critical
+39.5,130,30,92,92,V,Yes,Critical
+38.7,118,24,100,95,A,No,Moderate
+37.8,98,18,110,98,A,No,Low
+36.9,88,16,118,99,A,No,Low
+41.0,150,40,80,85,U,Yes,Critical
+39.0,125,28,95,93,V,Yes,Moderate
+38.2,110,22,102,96,A,No,Moderate
+37.5,90,18,115,98,A,No,Low

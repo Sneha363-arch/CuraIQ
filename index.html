@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CuraIQ - Smart Fever Diagnosis & Triage Assistant</title>
+    <meta name="description" content="AI-powered fever diagnosis system to identify dengue, typhoid, viral infections, and malaria with intelligent severity triage" />
+    <meta name="author" content="CuraIQ" />
+
+    <meta property="og:title" content="CuraIQ - Smart Fever Diagnosis & Triage" />
+    <meta property="og:description" content="AI-powered fever diagnosis system for healthcare professionals and patients" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/favicon.ico" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@CuraIQ" />
+    <meta name="twitter:image" content="/favicon.ico" />
+    
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Google Translate Script -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        // Initialize Google Translate when script loads
+        if (window.google && window.google.translate && window.google.translate.TranslateElement) {
+          try {
+            new google.translate.TranslateElement({
+              pageLanguage: 'en',
+              includedLanguages: 'en,kn,te,ta,mr,gu,pa',
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+              autoDisplay: false
+            }, 'google_translate_element');
+            console.log('Google Translate initialized successfully');
+          } catch (e) {
+            console.error('Error initializing Google Translate:', e);
+          }
+        }
+      }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async defer></script>
+    
+    <style>
+      /* Hide Google Translate UI elements but keep functionality */
+      .goog-te-banner-frame {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        width: 0 !important;
+        overflow: hidden !important;
+      }
+      .skiptranslate {
+        display: none !important;
+      }
+      body {
+        top: 0 !important;
+      }
+      /* Keep select accessible but hidden */
+      .goog-te-combo {
+        position: absolute !important;
+        left: -9999px !important;
+        opacity: 0 !important;
+        width: 1px !important;
+        height: 1px !important;
+        overflow: hidden !important;
+        pointer-events: auto !important; /* Important: allow events */
+      }
+      #google_translate_element {
+        position: absolute !important;
+        left: -9999px !important;
+        width: 1px !important;
+        height: 1px !important;
+        overflow: hidden !important;
+        opacity: 0 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Google Translate Element - Must be in body for translation to work -->
+    <div id="google_translate_element"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
